@@ -10,6 +10,11 @@
         },
         "core":{
             "FundDeployer":"0x965851be9F05cb5Af2583a1D2286164934fe7DdA"
+        },
+        "extentions":{
+            "FeeManager":"0xEF73284E0E7729404b75A09a4F6537Ce0E97b40a",
+            "PolicyManager":"0xf67AFC8911Bc9F72Ae85a81c455e7bBDf85C3E1F",
+            "IntegrationManager":"0x4868FB1BfCa8B43261d8a016564479BD0fd7028F"
         }
     }
 }
