@@ -1,0 +1,34 @@
+[profile.default]
+auto_detect_remappings = false
+libs = ["lib"]
+src = "contracts"
+test = "tests"
+out = "artifacts"
+cache_path = "cache"
+bytecode_hash = "none"
+cbor_metadata = false
+verbosity = 3
+fs_permissions = [{ access = "read", path = "./artifacts"}]
+optimizer=true
+
+# Ignore compiler warnings that should be intentionally-skipped
+ignored_warnings_from = ["contracts/release/extensions/integration-manager/integrations/utils/0.8.19/bases/GenericWrappingAdapterBase.sol"]
+
+# NOTE: Specifying shanghai as the evm_version seems required for the Goerli tests to pass
+evm_version = "shanghai"
+
+[profile.default.optimizer_details]
+yul = true
+
+[profile.dev]
+optimizer=false
+
+[rpc_endpoints]
+mainnet = "${ETHEREUM_NODE_MAINNET}"
+polygon = "${ETHEREUM_NODE_POLYGON}"
+arbitrum = "${ETHEREUM_NODE_ARBITRUM}"
+amoy = "${ETHEREUM_NODE_AMOY}"
+
+[etherscan]
+mainnet = { key = "${ETHERSCAN_API_KEY_MAINNET}", chain = "mainnet" }
+polygon = { key = "${ETHERSCAN_API_KEY_POLYGON}", chain = "polygon" }

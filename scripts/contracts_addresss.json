@@ -1,0 +1,15 @@
+
+{
+    "amoy":{
+        "dispatcher":"0x98bEe2E5F168CF46bD8D51AC6d2a4a6149885c23",
+        "persistent":{
+            "UintListRegistry":"0x255D9b9F2b224c6d18A444bDf10453C8b39F58DD",
+            "AddressListRegistry":"0x523874436374599266bD7e22b78712c93d222B23",
+            "ExternalPositionFactory":"0x9e91F6D85e4CF0e24B7cb41E735C5f0C5A73987c",
+            "GlobalConfigLib":"0x906F682c2B521804bb7de11854bEca25fd50863C"
+        },
+        "core":{
+            "FundDeployer":"0x965851be9F05cb5Af2583a1D2286164934fe7DdA"
+        }
+    }
+}
