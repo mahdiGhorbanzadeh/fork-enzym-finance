@@ -10,7 +10,6 @@ contract DeployGlobalConfigLib is Script {
 
     address public constant fundDeployer = 0x965851be9F05cb5Af2583a1D2286164934fe7DdA;
 
-
     function run() external returns (address) {
         
         uint256 deployerPrivateKey = vm.envUint("PRIVATE_KEY");

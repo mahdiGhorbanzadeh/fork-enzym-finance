@@ -4,7 +4,7 @@
 networks=("amoy")
 
 # Define the available contract options
-contracts=("Dispatcher" "UintListRegistry" "AddressListRegistry" "ExternalPositionFactory" "FundDeployer" "GlobalConfigLib" "FeeManager" "PolicyManager" "IntegrationManager")
+contracts=("Dispatcher" "UintListRegistry" "AddressListRegistry" "ExternalPositionFactory" "FundDeployer" "GlobalConfigLib" "FeeManager" "PolicyManager" "IntegrationManager" "ExternalPositionManager" "ProtocolFeeTracker" "GlobalConfigProxy" "ValueInterpreter" "FundValueCalculator" "FundValueCalculatorRouter")
 
 # Function to prompt the user to choose an option from a list
 choose() {

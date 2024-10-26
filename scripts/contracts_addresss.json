@@ -6,7 +6,11 @@
             "UintListRegistry":"0x255D9b9F2b224c6d18A444bDf10453C8b39F58DD",
             "AddressListRegistry":"0x523874436374599266bD7e22b78712c93d222B23",
             "ExternalPositionFactory":"0x9e91F6D85e4CF0e24B7cb41E735C5f0C5A73987c",
-            "GlobalConfigLib":"0x906F682c2B521804bb7de11854bEca25fd50863C"
+            "GlobalConfigLib":"0x906F682c2B521804bb7de11854bEca25fd50863C",
+            "GlobalConfigProxy":"0x9F067F5880eef14019d7913829ef4D2111D65935",
+            "ValueInterpreter":"0x829b6B8C7BcF940Ade600adcd32d418635DE5444",
+            "FundValueCalculator":"0x2Cf76EfF8eA4D52ed4F32c559c8ef9998B6E39c6",
+            "FundValueCalculatorRouter":"0xb2d826544495276Ef37b854aaD1C062d57e4d2A6"
         },
         "core":{
             "FundDeployer":"0x965851be9F05cb5Af2583a1D2286164934fe7DdA"
@@ -14,7 +18,13 @@
         "extentions":{
             "FeeManager":"0xEF73284E0E7729404b75A09a4F6537Ce0E97b40a",
             "PolicyManager":"0xf67AFC8911Bc9F72Ae85a81c455e7bBDf85C3E1F",
-            "IntegrationManager":"0x4868FB1BfCa8B43261d8a016564479BD0fd7028F"
+            "IntegrationManager":"0x4868FB1BfCa8B43261d8a016564479BD0fd7028F",
+            "ExternalPositionManager":"0x2848Aeb415De7EC710f14ca4B682972964ed0B86"
+        },
+        "infrastructure":{
+            "ProtocolFeeTracker":"0xA13779E1c825685dDd376689875AF6FC02191001"
         }
     }
 }
+
+
