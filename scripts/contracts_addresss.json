@@ -10,7 +10,9 @@
             "GlobalConfigProxy":"0x9F067F5880eef14019d7913829ef4D2111D65935",
             "ValueInterpreter":"0x829b6B8C7BcF940Ade600adcd32d418635DE5444",
             "FundValueCalculator":"0x2Cf76EfF8eA4D52ed4F32c559c8ef9998B6E39c6",
-            "FundValueCalculatorRouter":"0xb2d826544495276Ef37b854aaD1C062d57e4d2A6"
+            "FundValueCalculatorRouter":"0xb2d826544495276Ef37b854aaD1C062d57e4d2A6",
+            "AaveV3ATokenListOwner":"0x2dE0e1F3D4BE271B06F130F871aEC751325835d4",
+            "AssetValueCalculator":"0xfE948ad8E8549aE62ee24a202e88285597383522"
         },
         "core":{
             "FundDeployer":"0x965851be9F05cb5Af2583a1D2286164934fe7DdA"
