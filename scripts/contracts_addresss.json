@@ -12,7 +12,9 @@
             "FundValueCalculator":"0x2Cf76EfF8eA4D52ed4F32c559c8ef9998B6E39c6",
             "FundValueCalculatorRouter":"0xb2d826544495276Ef37b854aaD1C062d57e4d2A6",
             "AaveV3ATokenListOwner":"0x2dE0e1F3D4BE271B06F130F871aEC751325835d4",
-            "AssetValueCalculator":"0xfE948ad8E8549aE62ee24a202e88285597383522"
+            "AssetValueCalculator":"0xfE948ad8E8549aE62ee24a202e88285597383522",
+            "FundDataProviderRouter":"0x56d5A53cDd069A7D0109699b3081fB163becffeC",
+            "UnpermissionedActionsWrapper":"0x2B3Fec0E306EaD59f99035B34b3b6cd44D7983f4",
         },
         "core":{
             "FundDeployer":"0x965851be9F05cb5Af2583a1D2286164934fe7DdA"
@@ -24,7 +26,12 @@
             "ExternalPositionManager":"0x2848Aeb415De7EC710f14ca4B682972964ed0B86"
         },
         "infrastructure":{
-            "ProtocolFeeTracker":"0xA13779E1c825685dDd376689875AF6FC02191001"
+            "ProtocolFeeTracker":"0xA13779E1c825685dDd376689875AF6FC02191001",
+            "BalancerV2GaugeTokenPriceFeed":"0xA670757Cc0FE6641AdFC007c6f1e3fAEF9743C9E",
+            "BalancerV2StablePoolPriceFeed":"0x4F002975F262521d41396207c0EaD9bF9A5f04D7",
+            "UsdEthSimulatedAggregator":"0x11183c79668547b03289bfD97D6B093C805b83e2",
+            "PeggedDerivativesPriceFeed":"0xE1FD45977E6BEc557850C1A32910013075A7Cae9",
+            "ERC4626PriceFeed":"0x2f5982b3676F01ac7EEe954066444F623792Df16"
         }
     }
 }
