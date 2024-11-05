@@ -15,6 +15,8 @@
             "AssetValueCalculator":"0xfE948ad8E8549aE62ee24a202e88285597383522",
             "FundDataProviderRouter":"0x56d5A53cDd069A7D0109699b3081fB163becffeC",
             "UnpermissionedActionsWrapper":"0x2B3Fec0E306EaD59f99035B34b3b6cd44D7983f4",
+            "CompoundV3CTokenListOwner":"0x398465b04F9E4A97714aE8FB743A2A6aB5cC15ea",
+            "AaveV3FlashLoanAssetManagerLib":"0x43ED57Faf88A205C689aabd3792D2A5090417ba6"
         },
         "core":{
             "FundDeployer":"0x965851be9F05cb5Af2583a1D2286164934fe7DdA"
