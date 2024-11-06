@@ -4,7 +4,7 @@
 networks=("amoy")
 
 # Define the available contract options
-contracts=("Dispatcher" "UintListRegistry" "AddressListRegistry" "ExternalPositionFactory" "FundDeployer" "GlobalConfigLib" "FeeManager" "PolicyManager" "IntegrationManager" "ExternalPositionManager" "ProtocolFeeTracker" "GlobalConfigProxy" "ValueInterpreter" "FundValueCalculator" "FundValueCalculatorRouter" "AaveV3ATokenListOwner" "AssetValueCalculator" "FundDataProviderRouter" "UnpermissionedActionsWrapper" "BalancerV2GaugeTokenPriceFeed" "BalancerV2StablePoolPriceFeed" "UsdEthSimulatedAggregator" "PeggedDerivativesPriceFeed" "ERC4626PriceFeed" "CompoundV3CTokenListOwner" "AaveV3FlashLoanAssetManagerLib")
+contracts=("Dispatcher" "UintListRegistry" "AddressListRegistry" "ExternalPositionFactory" "FundDeployer" "GlobalConfigLib" "FeeManager" "PolicyManager" "IntegrationManager" "ExternalPositionManager" "ProtocolFeeTracker" "GlobalConfigProxy" "ValueInterpreter" "FundValueCalculator" "FundValueCalculatorRouter" "AaveV3ATokenListOwner" "AssetValueCalculator" "FundDataProviderRouter" "UnpermissionedActionsWrapper" "BalancerV2GaugeTokenPriceFeed" "BalancerV2StablePoolPriceFeed" "UsdEthSimulatedAggregator" "PeggedDerivativesPriceFeed" "ERC4626PriceFeed" "CompoundV3CTokenListOwner" "AaveV3FlashLoanAssetManagerLib" "SharesSplitterFactory" "AaveV2ATokenListOwner" "GatedRedemptionQueueSharesWrapperLib" "GatedRedemptionQueueSharesWrapperFactory" "SharePriceThrottledAssetManagerLib" "SharePriceThrottledAssetManagerFactory" "SingleAssetRedemptionQueueLib" "SingleAssetRedemptionQueueFactory" "ProtocolFeeReserveLib")
 
 # Function to prompt the user to choose an option from a list
 choose() {
