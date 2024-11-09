@@ -32,3 +32,4 @@ amoy = "${ETHEREUM_NODE_AMOY}"
 [etherscan]
 mainnet = { key = "${ETHERSCAN_API_KEY_MAINNET}", chain = "mainnet" }
 polygon = { key = "${ETHERSCAN_API_KEY_POLYGON}", chain = "polygon" }
+arbitrum = { key = "${ETHERSCAN_API_KEY_ARBITRUM}", chain = "arbitrum" }  

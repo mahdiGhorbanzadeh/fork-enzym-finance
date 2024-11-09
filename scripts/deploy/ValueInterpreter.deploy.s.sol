@@ -8,8 +8,8 @@ import "forge-std/console.sol";
 
 contract DeployValueInterpreter is Script {
 
-    address public constant fundDeployer = 0x965851be9F05cb5Af2583a1D2286164934fe7DdA;
-    address public constant wethToken = 0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619;
+    address public constant fundDeployer = 0xa6246ee1F20Db8A256867332EfB89d2e9f81900E;
+    address public constant wethToken = 0x82aF49447D8a07e3bd95BD0d56f35241523fBab1;
     uint256 public constant chainlinkStaleRateThreshold = 90000;
 
 

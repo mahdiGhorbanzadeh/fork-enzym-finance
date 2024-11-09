@@ -1,49 +1,53 @@
 
 {
-    "amoy":{
-        "dispatcher":"0x98bEe2E5F168CF46bD8D51AC6d2a4a6149885c23",
+    "arbitrum":{
+        "dispatcher":"0x9fBDE4f4A89847cB0E6bd04F1AEF02AE9778B99C",
         "persistent":{
-            "UintListRegistry":"0x255D9b9F2b224c6d18A444bDf10453C8b39F58DD",
-            "AddressListRegistry":"0x523874436374599266bD7e22b78712c93d222B23",
-            "ExternalPositionFactory":"0x9e91F6D85e4CF0e24B7cb41E735C5f0C5A73987c",
-            "GlobalConfigLib":"0x906F682c2B521804bb7de11854bEca25fd50863C",
-            "GlobalConfigProxy":"0x9F067F5880eef14019d7913829ef4D2111D65935",
-            "ValueInterpreter":"0x829b6B8C7BcF940Ade600adcd32d418635DE5444",
-            "FundValueCalculator":"0x2Cf76EfF8eA4D52ed4F32c559c8ef9998B6E39c6",
-            "FundValueCalculatorRouter":"0xb2d826544495276Ef37b854aaD1C062d57e4d2A6",
-            "AaveV3ATokenListOwner":"0x2dE0e1F3D4BE271B06F130F871aEC751325835d4",
-            "AssetValueCalculator":"0xfE948ad8E8549aE62ee24a202e88285597383522",
-            "FundDataProviderRouter":"0x56d5A53cDd069A7D0109699b3081fB163becffeC",
-            "UnpermissionedActionsWrapper":"0x2B3Fec0E306EaD59f99035B34b3b6cd44D7983f4",
-            "CompoundV3CTokenListOwner":"0x398465b04F9E4A97714aE8FB743A2A6aB5cC15ea",
-            "AaveV3FlashLoanAssetManagerLib":"0x43ED57Faf88A205C689aabd3792D2A5090417ba6",
-            "SharesSplitterFactory":"0x6fD123989ceF8bBfC2E6a2d3dEfC42aE0Dc87724",
-            "AaveV2ATokenListOwner":"0x00138F227677c707ea1B40b6FA329E014D585e68",
-            "GatedRedemptionQueueSharesWrapperLib":"0x017f78d4da78010Fa6b4063AE0Ead61A385c7D76",
-            "GatedRedemptionQueueSharesWrapperFactory":"0x230CCD77cb885e30C687a9c94DBdA36b1077CAE2",
-            "SharePriceThrottledAssetManagerLib":"0x12AD91256bF1972aed9CE396e290668E6d9398b2",
-            "SharePriceThrottledAssetManagerFactory":"0x49287a3C3d669c242FEc09f5B94FaE9E3Bc76696",
-            "SingleAssetRedemptionQueueLib":"0x1481EDB3cAd94162F328B5460d9c702Ed1F3A06c",
-            "SingleAssetRedemptionQueueFactory":"0x7CFC3B78D9E1649d232BaD2dE4BE1B4FE3Ccdba3",
-            "ProtocolFeeReserveLib":"0xdAFD89F702AF2368dE0C430d59d42378C2fB10C7",
-            "ProtocolFeeReserveProxy":"0xDF1b654597aADBD28F9fDEdf45Ec604c14D7f30C"
+            "UintListRegistry":"0x3a68B7dECd05AD7f9Db45f1427675CeB66a1b818",
+            "AddressListRegistry":"0xD3065E02e538076613ff42065cC238495BcDEdA3",
+            "ExternalPositionFactory":"0xf09b06989B5A389d966A2273978e8996621d4ad1",
+            "GlobalConfigLib":"0xE77941f8164B7Ba9F74676ff18F6E6280da2D578",
+            "GlobalConfigProxy":"0xc85e49171751381D8F1320E07382C1e27b15eC2C",
+            "ValueInterpreter":"0xC5fE9A6daCFDA03fE3C8BC9816aba4BE3B7acf99",
+            "FundValueCalculator":"0xECEA991eF246C39Ac6CE5dcAC87f2F8026CFD10a",
+            "FundValueCalculatorRouter":"0x1D4e284F0373512B1BBE4293565b29EDCDd930cC",
+            "AaveV3ATokenListOwner":"0x73C4a3bcBd77060394F1327D38CE9A339294FEFb",
+            "AssetValueCalculator":"",
+            "FundDataProviderRouter":"",
+            "UnpermissionedActionsWrapper":"0xc08BD4B9e3dcee804F415b91F65eB6D6e9C5f804",
+            "CompoundV3CTokenListOwner":"",
+            "AaveV3FlashLoanAssetManagerLib":"0x1be978f4adE4d50b28000557F803CA7709E55BB4",
+            "SharesSplitterFactory":"",
+            "AaveV2ATokenListOwner":"",
+            "GatedRedemptionQueueSharesWrapperLib":"",
+            "GatedRedemptionQueueSharesWrapperFactory":"",
+            "SharePriceThrottledAssetManagerLib":"",
+            "SharePriceThrottledAssetManagerFactory":"",
+            "SingleAssetRedemptionQueueLib":"",
+            "SingleAssetRedemptionQueueFactory":"",
+            "ProtocolFeeReserveLib":"0x77BB13961c69746785A5eE2F178ca8148DcAE133",
+            "ProtocolFeeReserveProxy":"0x834937aB9361838552a18745a67f4031244B078D"
         },
         "core":{
-            "FundDeployer":"0x965851be9F05cb5Af2583a1D2286164934fe7DdA"
+            "FundDeployer":"0xa6246ee1F20Db8A256867332EfB89d2e9f81900E",
+            "VaultLib":""
         },
         "extentions":{
-            "FeeManager":"0xEF73284E0E7729404b75A09a4F6537Ce0E97b40a",
-            "PolicyManager":"0xf67AFC8911Bc9F72Ae85a81c455e7bBDf85C3E1F",
-            "IntegrationManager":"0x4868FB1BfCa8B43261d8a016564479BD0fd7028F",
-            "ExternalPositionManager":"0x2848Aeb415De7EC710f14ca4B682972964ed0B86"
+            "FeeManager":"0x7484e83F5220b18DeD1C94ca288b1431890d1435",
+            "PolicyManager":"0x05800e3dA32C809A5B8183a8534FF70F9550099c",
+            "IntegrationManager":"0x7663C4A6FFc042b5193EB1cC8535C20AD1E15a52",
+            "ExternalPositionManager":"0xd503d9C85f3980Ab83edeC10ba5F1a3352B16f5D",
+            "EntranceRateBurnFee":"0xF667B20C29667A719c529634B4DF64268f7591d4",
+            "ExitRateDirectFee":""
         },
         "infrastructure":{
-            "ProtocolFeeTracker":"0xA13779E1c825685dDd376689875AF6FC02191001",
-            "BalancerV2GaugeTokenPriceFeed":"0xA670757Cc0FE6641AdFC007c6f1e3fAEF9743C9E",
-            "BalancerV2StablePoolPriceFeed":"0x4F002975F262521d41396207c0EaD9bF9A5f04D7",
-            "UsdEthSimulatedAggregator":"0x11183c79668547b03289bfD97D6B093C805b83e2",
-            "PeggedDerivativesPriceFeed":"0xE1FD45977E6BEc557850C1A32910013075A7Cae9",
-            "ERC4626PriceFeed":"0x2f5982b3676F01ac7EEe954066444F623792Df16"
+            "ProtocolFeeTracker":"0x7dB0BE38AfDEC678e98Ea75FD699AEF0a4925aD3",
+            "BalancerV2GaugeTokenPriceFeed":"0x1c1ef34b5D40B36F8692388a920Ef429c15699f8",
+            "BalancerV2StablePoolPriceFeed":"0x3f670F4e6Fd53981aCcBFC57d48B6C5165ea0CB8",
+            "UsdEthSimulatedAggregator":"",
+            "PeggedDerivativesPriceFeed":"",
+            "ERC4626PriceFeed":"",
+            "GasRelayPaymasterLib":"0x34433F4A15FE84AFf81b58673559969563E70358"
         }
     }
 }

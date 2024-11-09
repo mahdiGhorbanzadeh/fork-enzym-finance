@@ -8,9 +8,9 @@ import "forge-std/console.sol";
 
 contract DeployBalancerV2StablePoolPriceFeed is Script {
 
-    address public constant fundDeployer = 0x965851be9F05cb5Af2583a1D2286164934fe7DdA; 
+    address public constant fundDeployer = 0xa6246ee1F20Db8A256867332EfB89d2e9f81900E; 
     address public constant balancerVault = 0xBA12222222228d8Ba445958a75a0704d566BF2C8;
-    address[] public poolFactories = [0x7bc6C0E73EDAa66eF3F6E2f27b0EE8661834c6C9,0x136FD06Fa01eCF624C7F2B3CB15742c1339dC2c4];
+    address[] public poolFactories;
 
 
     function run() external returns (address) {

@@ -7,7 +7,7 @@ import "forge-std/console.sol";
 
 contract DeployProtocolFeeTracker is Script {
 
-    address public constant fundDeployer = 0x965851be9F05cb5Af2583a1D2286164934fe7DdA;
+    address public constant fundDeployer = 0xa6246ee1F20Db8A256867332EfB89d2e9f81900E;
 
 
     function run() external returns (address) {

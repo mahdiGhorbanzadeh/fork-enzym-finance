@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Define the available network options
-networks=("amoy")
+networks=("amoy" "arbitrum")
 
 # Define the available contract options
-contracts=("Dispatcher" "UintListRegistry" "AddressListRegistry" "ExternalPositionFactory" "FundDeployer" "GlobalConfigLib" "FeeManager" "PolicyManager" "IntegrationManager" "ExternalPositionManager" "ProtocolFeeTracker" "GlobalConfigProxy" "ValueInterpreter" "FundValueCalculator" "FundValueCalculatorRouter" "AaveV3ATokenListOwner" "AssetValueCalculator" "FundDataProviderRouter" "UnpermissionedActionsWrapper" "BalancerV2GaugeTokenPriceFeed" "BalancerV2StablePoolPriceFeed" "UsdEthSimulatedAggregator" "PeggedDerivativesPriceFeed" "ERC4626PriceFeed" "CompoundV3CTokenListOwner" "AaveV3FlashLoanAssetManagerLib" "SharesSplitterFactory" "AaveV2ATokenListOwner" "GatedRedemptionQueueSharesWrapperLib" "GatedRedemptionQueueSharesWrapperFactory" "SharePriceThrottledAssetManagerLib" "SharePriceThrottledAssetManagerFactory" "SingleAssetRedemptionQueueLib" "SingleAssetRedemptionQueueFactory" "ProtocolFeeReserveLib")
+contracts=("Dispatcher" "UintListRegistry" "AddressListRegistry" "ExternalPositionFactory" "FundDeployer" "GlobalConfigLib" "FeeManager" "PolicyManager" "IntegrationManager" "ExternalPositionManager" "ProtocolFeeTracker" "GlobalConfigProxy" "ValueInterpreter" "FundValueCalculator" "FundValueCalculatorRouter" "AaveV3ATokenListOwner" "AssetValueCalculator" "FundDataProviderRouter" "UnpermissionedActionsWrapper" "BalancerV2GaugeTokenPriceFeed" "BalancerV2StablePoolPriceFeed" "UsdEthSimulatedAggregator" "PeggedDerivativesPriceFeed" "ERC4626PriceFeed" "CompoundV3CTokenListOwner" "AaveV3FlashLoanAssetManagerLib" "SharesSplitterFactory" "AaveV2ATokenListOwner" "GatedRedemptionQueueSharesWrapperLib" "GatedRedemptionQueueSharesWrapperFactory" "SharePriceThrottledAssetManagerLib" "SharePriceThrottledAssetManagerFactory" "SingleAssetRedemptionQueueLib" "SingleAssetRedemptionQueueFactory" "ProtocolFeeReserveLib" "ProtocolFeeReserveProxy" "GasRelayPaymasterLib" "VaultLib" "EntranceRateBurnFee" "ExitRateDirectFee")
 
 # Function to prompt the user to choose an option from a list
 choose() {
@@ -79,3 +79,5 @@ forge clean
 # forge script "$script_path" --rpc-url "$network" --broadcast --priority-gas-price 10000000000 --with-gas-price 15000000000 --gas-limit 8000000 -vvvv $verify_flag 
 forge script --chain "$network" "$script_path" --rpc-url "$network" --broadcast -vvvv $verify_flag
 # forge script  script/deploy/Dispatcher.deploy.s.sol:DeployDispatcher --rpc-url https://polygon-amoy.g.alchemy.com/v2/jJUgGjQsD7SiypxAWKDb9zJA99jsOeeZ --broadcast 
+
+

@@ -7,9 +7,9 @@ import "forge-std/console.sol";
 
 contract DeployFundValueCalculatorRouter is Script {
 
-    address public constant dispatcher = 0x98bEe2E5F168CF46bD8D51AC6d2a4a6149885c23;
-    address[] public fundDeployers = [0x965851be9F05cb5Af2583a1D2286164934fe7DdA];
-    address[] public fundValueCalculators = [0x2Cf76EfF8eA4D52ed4F32c559c8ef9998B6E39c6];
+    address public constant dispatcher = 0x9fBDE4f4A89847cB0E6bd04F1AEF02AE9778B99C;
+    address[] public fundDeployers = [0xa6246ee1F20Db8A256867332EfB89d2e9f81900E];
+    address[] public fundValueCalculators = [0xECEA991eF246C39Ac6CE5dcAC87f2F8026CFD10a];
 
 
     function run() external returns (address) {

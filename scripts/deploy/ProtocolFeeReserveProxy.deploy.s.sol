@@ -2,13 +2,13 @@
 pragma solidity 0.6.12;
 
 import "forge-std/Script.sol";
-import "./../../contracts/persistent/protocol-fee-reserve/ProtocolFeeReserveLib.sol";
+import "./../../contracts/persistent/protocol-fee-reserve/ProtocolFeeReserveProxy.sol";
 import "forge-std/console.sol";
 
 contract DeployProtocolFeeReserveProxy is Script {
 
-    address public constant protocolFeeReserveLib = 0xdAFD89F702AF2368dE0C430d59d42378C2fB10C7;
-    bytes public constant constructData = "0x19ab453c00000000000000000000000098bee2e5f168cf46bd8d51ac6d2a4a6149885c23";
+    address public constant protocolFeeReserveLib = 0x77BB13961c69746785A5eE2F178ca8148DcAE133;
+    bytes public constant constructData = hex"19ab453c0000000000000000000000009fBDE4f4A89847cB0E6bd04F1AEF02AE9778B99C";
 
     function run() external returns (address) {
 

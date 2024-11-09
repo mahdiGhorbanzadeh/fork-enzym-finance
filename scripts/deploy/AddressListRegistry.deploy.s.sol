@@ -8,7 +8,7 @@ import "forge-std/console.sol";
 
 contract DeployAddressListRegistry is Script {
 
-    address public constant dispatcher = 0x98bEe2E5F168CF46bD8D51AC6d2a4a6149885c23;
+    address public constant dispatcher = 0x9fBDE4f4A89847cB0E6bd04F1AEF02AE9778B99C;
 
 
     function run() external returns (address) {

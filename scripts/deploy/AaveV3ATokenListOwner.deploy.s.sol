@@ -8,7 +8,7 @@ import "forge-std/console.sol";
 
 contract DeployAaveV3ATokenListOwner is Script {
 
-    address public constant addressListRegistry = 0x523874436374599266bD7e22b78712c93d222B23; // replace with actual address
+    address public constant addressListRegistry = 0xD3065E02e538076613ff42065cC238495BcDEdA3; // replace with actual address
     string public constant listDescription = "Aave v3: aTokens"; // replace with actual description
     address public constant poolAddressProvider = 0xa97684ead0e402dC232d5A977953DF7ECBaB3CDb; // replace with actual address
 

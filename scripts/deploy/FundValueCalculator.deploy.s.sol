@@ -8,9 +8,9 @@ import "forge-std/console.sol";
 
 contract DeployFundValueCalculator is Script {
 
-    address public constant feeManager = 0xEF73284E0E7729404b75A09a4F6537Ce0E97b40a;
-    address public constant protocolFeeTracker = 0xA13779E1c825685dDd376689875AF6FC02191001;
-    address public constant valueInterpreter = 0x829b6B8C7BcF940Ade600adcd32d418635DE5444;
+    address public constant feeManager = 0x7484e83F5220b18DeD1C94ca288b1431890d1435;
+    address public constant protocolFeeTracker = 0x7dB0BE38AfDEC678e98Ea75FD699AEF0a4925aD3;
+    address public constant valueInterpreter = 0xC5fE9A6daCFDA03fE3C8BC9816aba4BE3B7acf99;
 
 
     function run() external returns (address) {

@@ -7,7 +7,7 @@ import "forge-std/console.sol";
 
 contract DeployUnpermissionedActionsWrapper is Script {
 
-    address public constant feeManager = 0xEF73284E0E7729404b75A09a4F6537Ce0E97b40a; // replace with actual address
+    address public constant feeManager = 0x7484e83F5220b18DeD1C94ca288b1431890d1435; // replace with actual address
 
 
     function run() external returns (address) {

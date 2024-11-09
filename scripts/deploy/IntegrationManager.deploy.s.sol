@@ -8,8 +8,8 @@ import "forge-std/console.sol";
 
 contract DeployIntegrationManager is Script {
 
-    address public constant fundDeployer = 0x965851be9F05cb5Af2583a1D2286164934fe7DdA;
-    address public constant policyManager = 0xf67AFC8911Bc9F72Ae85a81c455e7bBDf85C3E1F;
+    address public constant fundDeployer = 0xa6246ee1F20Db8A256867332EfB89d2e9f81900E;
+    address public constant policyManager = 0x05800e3dA32C809A5B8183a8534FF70F9550099c;
 
     function run() external returns (address) {
         
