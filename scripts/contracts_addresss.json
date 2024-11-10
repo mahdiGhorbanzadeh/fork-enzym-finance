@@ -38,7 +38,13 @@
             "IntegrationManager":"0x7663C4A6FFc042b5193EB1cC8535C20AD1E15a52",
             "ExternalPositionManager":"0xd503d9C85f3980Ab83edeC10ba5F1a3352B16f5D",
             "EntranceRateBurnFee":"0xF667B20C29667A719c529634B4DF64268f7591d4",
-            "ExitRateDirectFee":""
+            "ExitRateDirectFee":"0x53D3594097929c4D0f13e044B7339640DF517626",
+            "AllowedExternalPositionTypesPolicy":"0x7f5318366f8405cB6789CE303904CE2E489f0Fec",
+            "NoDepegOnRedeemSharesForSpecificAssetsPolicy":"0x5227C1dC26DaBbba79b9Eb7a4Da3ff3dBFEc1425",
+            "MinSharesSupplyFee":"0x72E597eddA727101F059d45249F0d7C7B8A426Fd",
+            "AllowedAdaptersPolicy":"0x6B45201425f6E575371C4aBC88B8F6d4AFc8e15C",
+            "EntranceRateDirectFee":"0xCa95C8b25E486A0e35C409eC84b5e9db3126492a",
+            "ManagementFee":""
         },
         "infrastructure":{
             "ProtocolFeeTracker":"0x7dB0BE38AfDEC678e98Ea75FD699AEF0a4925aD3",
