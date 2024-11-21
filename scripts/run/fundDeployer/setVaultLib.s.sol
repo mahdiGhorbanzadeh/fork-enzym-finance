@@ -6,11 +6,11 @@ import "./../../../contracts/release/core/fund-deployer/IFundDeployer.sol";
 import "forge-std/console.sol";
 
 
-contract SetProtocolFeeTracker is Script {
+contract SetVaultLib is Script {
 
-    address public constant fundDeployer = 0xa6246ee1F20Db8A256867332EfB89d2e9f81900E;
+    address public constant fundDeployer = 0x36dA4B48F8a2c6B5628d444F97f8eDb1b19f9b9d;
 
-    address public constant protocolFeeTracker = 0x7dB0BE38AfDEC678e98Ea75FD699AEF0a4925aD3;
+    address public constant vaultLib = 0xfdc26b5F9cCcfc07F52B9B945150b668830863C0;
 
     function run() external {
         
@@ -20,7 +20,7 @@ contract SetProtocolFeeTracker is Script {
 
         IFundDeployer fundDeployer = IFundDeployer(fundDeployer);
 
-        fundDeployer.setProtocolFeeTracker(protocolFeeTracker);
+        fundDeployer.getVaultLib(vaultLib);
 
         vm.stopBroadcast();
 

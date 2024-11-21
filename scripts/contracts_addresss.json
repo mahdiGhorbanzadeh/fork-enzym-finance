@@ -1,61 +1,81 @@
-
 {
-    "arbitrum":{
-        "dispatcher":"0x9fBDE4f4A89847cB0E6bd04F1AEF02AE9778B99C",
-        "persistent":{
-            "UintListRegistry":"0x3a68B7dECd05AD7f9Db45f1427675CeB66a1b818",
-            "AddressListRegistry":"0xD3065E02e538076613ff42065cC238495BcDEdA3",
-            "ExternalPositionFactory":"0xf09b06989B5A389d966A2273978e8996621d4ad1",
-            "GlobalConfigLib":"0xE77941f8164B7Ba9F74676ff18F6E6280da2D578",
-            "GlobalConfigProxy":"0xc85e49171751381D8F1320E07382C1e27b15eC2C",
-            "ValueInterpreter":"0xC5fE9A6daCFDA03fE3C8BC9816aba4BE3B7acf99",
-            "FundValueCalculator":"0xECEA991eF246C39Ac6CE5dcAC87f2F8026CFD10a",
-            "FundValueCalculatorRouter":"0x1D4e284F0373512B1BBE4293565b29EDCDd930cC",
-            "AaveV3ATokenListOwner":"0x73C4a3bcBd77060394F1327D38CE9A339294FEFb",
-            "AssetValueCalculator":"",
-            "FundDataProviderRouter":"",
-            "UnpermissionedActionsWrapper":"0xc08BD4B9e3dcee804F415b91F65eB6D6e9C5f804",
-            "CompoundV3CTokenListOwner":"",
-            "AaveV3FlashLoanAssetManagerLib":"0x1be978f4adE4d50b28000557F803CA7709E55BB4",
-            "SharesSplitterFactory":"",
-            "AaveV2ATokenListOwner":"",
-            "GatedRedemptionQueueSharesWrapperLib":"",
-            "GatedRedemptionQueueSharesWrapperFactory":"",
-            "SharePriceThrottledAssetManagerLib":"",
-            "SharePriceThrottledAssetManagerFactory":"",
-            "SingleAssetRedemptionQueueLib":"",
-            "SingleAssetRedemptionQueueFactory":"",
-            "ProtocolFeeReserveLib":"0x77BB13961c69746785A5eE2F178ca8148DcAE133",
-            "ProtocolFeeReserveProxy":"0x834937aB9361838552a18745a67f4031244B078D"
-        },
-        "core":{
-            "FundDeployer":"0xa6246ee1F20Db8A256867332EfB89d2e9f81900E",
-            "VaultLib":""
-        },
-        "extentions":{
-            "FeeManager":"0x7484e83F5220b18DeD1C94ca288b1431890d1435",
-            "PolicyManager":"0x05800e3dA32C809A5B8183a8534FF70F9550099c",
-            "IntegrationManager":"0x7663C4A6FFc042b5193EB1cC8535C20AD1E15a52",
-            "ExternalPositionManager":"0xd503d9C85f3980Ab83edeC10ba5F1a3352B16f5D",
-            "EntranceRateBurnFee":"0xF667B20C29667A719c529634B4DF64268f7591d4",
-            "ExitRateDirectFee":"0x53D3594097929c4D0f13e044B7339640DF517626",
-            "AllowedExternalPositionTypesPolicy":"0x7f5318366f8405cB6789CE303904CE2E489f0Fec",
-            "NoDepegOnRedeemSharesForSpecificAssetsPolicy":"0x5227C1dC26DaBbba79b9Eb7a4Da3ff3dBFEc1425",
-            "MinSharesSupplyFee":"0x72E597eddA727101F059d45249F0d7C7B8A426Fd",
-            "AllowedAdaptersPolicy":"0x6B45201425f6E575371C4aBC88B8F6d4AFc8e15C",
-            "EntranceRateDirectFee":"0xCa95C8b25E486A0e35C409eC84b5e9db3126492a",
-            "ManagementFee":""
-        },
-        "infrastructure":{
-            "ProtocolFeeTracker":"0x7dB0BE38AfDEC678e98Ea75FD699AEF0a4925aD3",
-            "BalancerV2GaugeTokenPriceFeed":"0x1c1ef34b5D40B36F8692388a920Ef429c15699f8",
-            "BalancerV2StablePoolPriceFeed":"0x3f670F4e6Fd53981aCcBFC57d48B6C5165ea0CB8",
-            "UsdEthSimulatedAggregator":"",
-            "PeggedDerivativesPriceFeed":"",
-            "ERC4626PriceFeed":"",
-            "GasRelayPaymasterLib":"0x34433F4A15FE84AFf81b58673559969563E70358"
-        }
+    "arbitrum": {
+      "dispatcher": "0x282d075e379042142a4657F8e692208Cad9CD574",
+      "persistent": {
+        "UintListRegistry": "0xfcE71a9fD4CF192aab1142Ec5823AdB37993F909",
+        "AddressListRegistry": "0xb8d54C3d0AB1300cbE437ECC14B2baC26603522d",
+        "ExternalPositionFactory": "0x48F370FFAe46DDC7081031758c3ed42Bf57dC70A",
+        "GlobalConfigLib": "0x2D9177a5818dA6D7C6b3E92e928074D5D565fAFE",
+        "GlobalConfigProxy": "0x3b9fF49a40C1b48f8D8e83E32838e5A8Fa482d69",
+        "ValueInterpreter": "0xB689c61c641e4D29490E7E1e334414dDc6887BC5",
+        "FundValueCalculator": "0x9C7A2FC193c56F14951eFdE6013B34e527646084",
+        "FundValueCalculatorRouter": "0x9b0CC04d328Fdd90969c3Fa8BD3EA876b620B032",
+        "AaveV3ATokenListOwner": "0x9ed1653D5F5E64EA614436380d647660AB4c8FC6",
+        "UnpermissionedActionsWrapper": "0xA1bA66b66b237D85bDfCBbc00E6C2dd373Df08e3",
+        "AaveV3FlashLoanAssetManagerLib": "0xB9eaCbfA11e95fA2534E8F27Adc6db439230746D",
+        "ProtocolFeeReserveLib": "0x7Ff917C3c979a41b52D3D4dBe0a4791A5739697e",
+        "ProtocolFeeReserveProxy": "0x2bD53c1516d3243a09C8acd690a47F10f4A8b357"
+      },
+      "core": {
+        "FundDeployer": "0x36dA4B48F8a2c6B5628d444F97f8eDb1b19f9b9d",
+        "VaultLib": "0xfdc26b5F9cCcfc07F52B9B945150b668830863C0"
+      },
+      "extentions": {
+        "FeeManager": "0x33db8323B9a7D13BEFaffd51534B5e553C0BDb39",
+        "PolicyManager": "0xE8f716561B3dDb5A01C08c0e8dbFeD77fE5229fD",
+        "IntegrationManager": "0x4b6D70dc4DDbf1d6275646B5643ccf5a6E8f53FE",
+        "ExternalPositionManager": "0x9a702d65c594657cCDAD24D57afeE73F26fb0A8F",
+        "EntranceRateBurnFee": "0x3c8C610353dc1B6cE0A7C1A6cd3eaea20f4dadF0",
+        "ExitRateDirectFee": "0xB6b57d93135F17Ac7cf9800283c86E079A0b53Eb",
+        "AllowedExternalPositionTypesPolicy": "0xCba5313EB44aC5D47408596692089BB2C5BA878E",
+        "NoDepegOnRedeemSharesForSpecificAssetsPolicy": "0xfcF451397E6487974fedc8F393669943201E7A50",
+        "MinSharesSupplyFee": "0xa239D4624bAC6EB2d842D284A041ADE4EB2232A7",
+        "AllowedAdaptersPolicy": "0x41494Dcc8114b4485441BD849255B24e88Ea4860",
+        "EntranceRateDirectFee": "0x9FC3f030476C677739Cbcde766ae177896814a7D",
+        "ManagementFee": "0x9A451308Df4a3D3636C5B32793F880Eb7D1C09d8",
+        "AllowedAdaptersPerManagerPolicy": "0xEDA03506c2EABE674c10A930bEF24BE5e8802Ef3",
+        "AllowedAssetsForRedemptionPolicy": "0x6820C5645618310D6658637aA3dBb94900E4C064",
+        "MinMaxInvestmentPolicy": "0x6A18B700BAcD0D9D281B1f3236f30f5C24ed859C",
+        "ExitRateBurnFee": "0xbc631b39F279326ff48b74F4560D1C9a13579b3c",
+        "PerformanceFee": "0x01dCC9011514A4936FC6AcCcb371A11b908EF5dE",
+        "AllowedSharesTransferRecipientsPolicy": "0xF7910B866e8fe3D8Eb9bC4aC4a07a6a2060Eb72f",
+        "AllowedDepositRecipientsPolicy": "0xCD0e0dC75aab8bd9250440f2a601FF8BB96aC4d1",
+        "AllowedExternalPositionTypesPerManagerPolicy": "0x49fabC9Bf6B25da6fa03FE06246817C8Ee543b4B",
+        "DisallowedAdapterIncomingAssetsPolicy": "0x6Ee543bDffB6a31ece5Ce07612C3bF1Cb7a37602",
+        "AllowedAdapterIncomingAssetsPolicy": "0x2dF71418325E1bD7C0D46247d0FA04DF227D7E79",
+        "MinAssetBalancesPostRedemptionPolicy": "0xc9aE3C130824588971A7ef17D9dA496a4B3d52eb",
+        "AllowedRedeemersForSpecificAssetsPolicy": "0x658041Ba01e55d04Fe0Ed2b9b9e19BFA162B73e0",
+        "OnlyUntrackDustOrPricelessAssetsPolicy": "0x4606537EC21E03ed489fdEfAe6eFc0b2132bA743",
+        "CumulativeSlippageTolerancePolicy": "0x3D5Bb0CbE12b3923b4C362Adc81A8C3139F8885F",
+        "OnlyRemoveDustExternalPositionPolicy": "0xCeCBB3e0264ab4624133264C92B395fb5c4D76E1",
+        "UniswapV3LiquidityPositionLib": "0xB19148522f722B3EF7e5b482c07a3edbe063bb6c",
+        "OneInchV5Adapter": "0xaf86EEBC30d87E0cB1EB1b68F505874c725e0491",
+        "AaveV3DebtPositionParser": "",
+        "BalancerV2LiquidityAdapter": "0xB52fCad67BDD5cB5797C3D67fb4d7843aCa1ddd1",
+        "GasRelayPaymasterFactory": "0x55B8bcb669B4d69089Bf33bBD2FFe8B181fD30C4",
+        "UniswapV3LiquidityPositionParser": "0x188000d0BE89FFC59D73F692132894B177952541",
+        "UniswapV3Adapter": "0xdf439F0Be4a4Ea48c0e7BcDB2997801a50D5c14D",
+        "AaveV3DebtPositionLib": "0x0697008703FF024453ECc1E62e0c17BE9b8a0b12",
+        "ParaSwapV5Adapter": "0x17453045E92F125CfaEF38Fcb8330dA506129152",
+        "GMXV2LeverageTradingPositionParser": "0x74af6c1dB3C4Bb54D3109d489ee51403352564dA",
+        "ManualValueOracleLib": "0x86682500289Cf44f5F746B850184f314FAdb688E",
+        "ManualValueOracleFactory": "0x383c909826ff2EdFc1B8dE84696a217F244797fD",
+        "TheGraphDelegationPositionParser": "0xC4174D7A05EB18E098F13179EE533cfF6B3d32fF",
+        "TheGraphDelegationPositionLib": "0xEF41ABc768096c8BABfc3653Ed8657ab7bBd34a0",
+        "TransferAssetsAdapter": "0xad4B761d6Ef86F3aEecFCE5a995B4A4f0Da6f1BD",
+        "DispatcherOwnedBeaconFactory": "0x19683d992119F507b9eE86720aBE9C90AA467A45",
+        "DepositWrapper": "0x7fC8cFb94Aa159aa6DEbf0CF667965A343f88EBC",
+        "GMXV2LeverageTradingPositionLib": "0xc9D63727929aF0A84064099EF259f3b60E358983",
+        "ComptrollerLib": "0x05f7B63Af52d9df1AE9b1d4f2DF2E39960c40D5f",
+        "BalancerV2WeightedPoolPriceFeed": "0x79a296fF59e25862c7abA6a00e9578DA178b7e5C",
+        "AaveV3Adapter": ""
+      },
+      "infrastructure": {
+        "ProtocolFeeTracker": "0x7a52d861Ed272b7f974d64AcbAC14f6B9218ad45",
+        "BalancerV2GaugeTokenPriceFeed": "0x56c9d324C4B49fcE3d8967CFF671f680786d7002",
+        "BalancerV2StablePoolPriceFeed": "0x2EB1AfF7Fe5cFa7F936e30c8e1278624B1608d99",
+        "GasRelayPaymasterLib": "0xC2b7740E973b90E01dFF5769aeD275E88Cae7f6e"
+      }
     }
-}
-
-
+  }
+  

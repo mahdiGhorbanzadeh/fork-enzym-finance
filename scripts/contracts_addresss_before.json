@@ -1,0 +1,61 @@
+
+{
+    "arbitrum":{
+        "dispatcher":"0x9fBDE4f4A89847cB0E6bd04F1AEF02AE9778B99C",
+        "persistent":{
+            "UintListRegistry":"0x3a68B7dECd05AD7f9Db45f1427675CeB66a1b818",
+            "AddressListRegistry":"0xD3065E02e538076613ff42065cC238495BcDEdA3",
+            "ExternalPositionFactory":"0xf09b06989B5A389d966A2273978e8996621d4ad1",
+            "GlobalConfigLib":"0xE77941f8164B7Ba9F74676ff18F6E6280da2D578",
+            "GlobalConfigProxy":"0xc85e49171751381D8F1320E07382C1e27b15eC2C",
+            "ValueInterpreter":"0xC5fE9A6daCFDA03fE3C8BC9816aba4BE3B7acf99",
+            "FundValueCalculator":"0xECEA991eF246C39Ac6CE5dcAC87f2F8026CFD10a",
+            "FundValueCalculatorRouter":"0x1D4e284F0373512B1BBE4293565b29EDCDd930cC",
+            "AaveV3ATokenListOwner":"0x73C4a3bcBd77060394F1327D38CE9A339294FEFb",
+            "AssetValueCalculator":"",
+            "FundDataProviderRouter":"",
+            "UnpermissionedActionsWrapper":"0xc08BD4B9e3dcee804F415b91F65eB6D6e9C5f804",
+            "CompoundV3CTokenListOwner":"",
+            "AaveV3FlashLoanAssetManagerLib":"0x1be978f4adE4d50b28000557F803CA7709E55BB4",
+            "SharesSplitterFactory":"",
+            "AaveV2ATokenListOwner":"",
+            "GatedRedemptionQueueSharesWrapperLib":"",
+            "GatedRedemptionQueueSharesWrapperFactory":"",
+            "SharePriceThrottledAssetManagerLib":"",
+            "SharePriceThrottledAssetManagerFactory":"",
+            "SingleAssetRedemptionQueueLib":"",
+            "SingleAssetRedemptionQueueFactory":"",
+            "ProtocolFeeReserveLib":"0x77BB13961c69746785A5eE2F178ca8148DcAE133",
+            "ProtocolFeeReserveProxy":"0x834937aB9361838552a18745a67f4031244B078D"
+        },
+        "core":{
+            "FundDeployer":"0xa6246ee1F20Db8A256867332EfB89d2e9f81900E",
+            "VaultLib":""
+        },
+        "extentions":{
+            "FeeManager":"0x7484e83F5220b18DeD1C94ca288b1431890d1435",
+            "PolicyManager":"0x05800e3dA32C809A5B8183a8534FF70F9550099c",
+            "IntegrationManager":"0x7663C4A6FFc042b5193EB1cC8535C20AD1E15a52",
+            "ExternalPositionManager":"0xd503d9C85f3980Ab83edeC10ba5F1a3352B16f5D",
+            "EntranceRateBurnFee":"0xF667B20C29667A719c529634B4DF64268f7591d4",
+            "ExitRateDirectFee":"0x53D3594097929c4D0f13e044B7339640DF517626",
+            "AllowedExternalPositionTypesPolicy":"0x7f5318366f8405cB6789CE303904CE2E489f0Fec",
+            "NoDepegOnRedeemSharesForSpecificAssetsPolicy":"0x5227C1dC26DaBbba79b9Eb7a4Da3ff3dBFEc1425",
+            "MinSharesSupplyFee":"0x72E597eddA727101F059d45249F0d7C7B8A426Fd",
+            "AllowedAdaptersPolicy":"0x6B45201425f6E575371C4aBC88B8F6d4AFc8e15C",
+            "EntranceRateDirectFee":"0xCa95C8b25E486A0e35C409eC84b5e9db3126492a",
+            "ManagementFee":""
+        },
+        "infrastructure":{
+            "ProtocolFeeTracker":"0x7dB0BE38AfDEC678e98Ea75FD699AEF0a4925aD3",
+            "BalancerV2GaugeTokenPriceFeed":"0x1c1ef34b5D40B36F8692388a920Ef429c15699f8",
+            "BalancerV2StablePoolPriceFeed":"0x3f670F4e6Fd53981aCcBFC57d48B6C5165ea0CB8",
+            "UsdEthSimulatedAggregator":"",
+            "PeggedDerivativesPriceFeed":"",
+            "ERC4626PriceFeed":"",
+            "GasRelayPaymasterLib":"0x34433F4A15FE84AFf81b58673559969563E70358"
+        }
+    }
+}
+
+
