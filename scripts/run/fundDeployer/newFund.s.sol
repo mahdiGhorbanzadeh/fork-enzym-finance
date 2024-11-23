@@ -42,7 +42,7 @@ interface IComptroller {
  
 contract NewFund is Script { 
  
-    address public constant fundDeployer = 0x36dA4B48F8a2c6B5628d444F97f8eDb1b19f9b9d; 
+    address public constant fundDeployer = 0x5BBC7b2BfD7a149A60f4cE98e4ea3Cd988efA3a3; 
  
     address public constant fundOwner = 0xaE87F9BD09895f1aA21c5023b61EcD85Eba515D1; 
  
@@ -54,8 +54,8 @@ contract NewFund is Script {
  
         IFundDeployer fundDeployer = IFundDeployer(fundDeployer); 
  
-        string memory fundName = "Test Fund2"; 
-        string memory fundSymbol = "TFTT"; 
+        string memory fundName = "TT"; 
+        string memory fundSymbol = "test trade"; 
  
         address denominationAsset = 0x82aF49447D8a07e3bd95BD0d56f35241523fBab1; 
         uint256 sharesActionTimelock = 0; 
